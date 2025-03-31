@@ -1,0 +1,26 @@
+{
+	"name": "@m1212e/graphql-scalars-houdini",
+	"module": "lib/index.ts",
+	"type": "module",
+	"repository": "https://github.com/m1212e/graphql-scalars-houdini",
+	"scripts": {
+		"format": "bun run lint",
+		"lint": "bunx biome check --write .",
+		"build": "bun build.ts",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@biomejs/biome": "1.9.4",
+		"lefthook": "^1.11.2",
+		"tsup": "^8.4.0"
+	},
+	"peerDependencies": {
+		"typescript": "^5",
+		"houdini": "^1"
+	},
+	"dependencies": {
+		"graphql-scalars": "^1.24"
+	},
+	"private": true
+}
