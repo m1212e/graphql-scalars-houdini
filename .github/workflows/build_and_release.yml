@@ -1,4 +1,4 @@
-name: Build client
+name: Build & release client
 
 on:
   release:
